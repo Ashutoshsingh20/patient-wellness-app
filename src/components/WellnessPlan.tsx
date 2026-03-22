@@ -123,7 +123,7 @@ function WellnessPlan() {
               <div className="goal-name">Maintain BP below 130/85</div>
               <div className="goal-progress">
                 <div className="progress-bar">
-                  <div className="progress-fill" style={{width: '85%}}></div>
+                  <div className="progress-fill" style={{width: '85%'}}></div>
                 </div>
                 <span className="goal-status">85% consistent</span>
               </div>
@@ -136,7 +136,7 @@ function WellnessPlan() {
               <div className="goal-name">10,000 steps daily</div>
               <div className="goal-progress">
                 <div className="progress-bar">
-                  <div className="progress-fill" style={{width: '82%}}></div>
+                  <div className="progress-fill" style={{width: '82%'}}></div>
                 </div>
                 <span className="goal-status">8,200 / 10,000 today</span>
               </div>

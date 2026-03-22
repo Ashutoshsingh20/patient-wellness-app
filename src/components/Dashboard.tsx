@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 interface HealthAlert {
   id: number
@@ -7,7 +7,7 @@ interface HealthAlert {
 }
 
 function Dashboard() {
-  const [alerts, setAlerts] = useState<HealthAlert[]>([
+  const [alerts] = useState<HealthAlert[]>([
     { id: 1, type: 'warning', message: 'Blood pressure reading above normal - consider checking with your doctor' },
     { id: 2, type: 'info', message: 'Time for your daily medication reminder' },
     { id: 3, type: 'success', message: 'Great job! You hit your daily step goal' }
